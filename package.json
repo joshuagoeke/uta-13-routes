@@ -1,29 +1,28 @@
 {
-  "name": "department-chart",
+  "name": "module-13-challenge-orm",
   "version": "1.0.0",
-  "description": "In this homework assignment from the University of Texas-Austin Bootcamp we were asked to ...",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "tests"
-  },
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "jest",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joshuagoeke/node-department-chart.git"
+    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/joshuagoeke/node-department-chart/issues"
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   },
-  "homepage": "https://github.com/joshuagoeke/node-department-chart#readme",
   "dependencies": {
-    "inquirer": "^8.2.4",
-    "jest": "^29.4.1"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.7"
   }
 }
