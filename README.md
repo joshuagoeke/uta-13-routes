@@ -1,12 +1,12 @@
-## UTA Bootcamp Challenge 10
+## UTA Bootcamp Challenge 13
 
-In this homework assignment from the University of Texas-Austin Bootcamp we were asked to create a program that builds an HTML page using Node.js Inquirer.
+In this homework assignment from the University of Texas-Austin Bootcamp we were asked to create an application for managing an online shop. Starter code was provided and we were given the task of correctly connecting the routes to the database server.
 
-# Node.js Department Chart maker
+# Online Store Routes
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
 
-Building this app gave me the opportunity to learn about and apply some basic knowledge of using Node.js to build an HTML page. The most challenging part was figuring out the syntax of how to get the index.js page to transfer the necessary array of objects to the makeHTML.js page. This challenge was pretty challenging, and allowed me to hone some data wrangling skills while learning to traverse the back-end.
+Building this app gave me the opportunity to learn about ...
 
 ## Table of Contents (Optional)
 
