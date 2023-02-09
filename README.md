@@ -4,9 +4,10 @@ In this homework assignment from the University of Texas-Austin Bootcamp we were
 
 # Online Store Routes
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Description
 
-Building this app gave me the opportunity to learn about ...
+Building this app gave me the opportunity to learn about routes that connect API database servers to a javascript application.
 
 ## Table of Contents (Optional)
 
@@ -19,36 +20,38 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
+- You will need to instal MySQL and Node.js if you have not already done so.
+
 Be sure after downloading and unzipping the directory to run in your integrated terminal or command prompt in the appropriate directory:
 - ```npm i```
-- ```npm test```
-- ```node index.js```
+- Update your password and username in the .env file.
+- Navigate to the db folder with ```cd db```
+- Log into MySQL with ```mysql -u root -p```, and enter your password.
+- In MySQL, run ```SOURCE schema.sql```
+- Log out of mySQL, then return to the root directory with ```cd ..```
+- Seed ```npm run seed```
+- Make the simulated local server go live with ```npm start```
 
 
 ## Usage
 
-Once the program is operating in the terminal, follow the prompts to answer questions about the type of employees that are being added to your department chart. Then, if desired, you can deploy the HTML page generated from the distribution (/dist) folder.
+Once the program is operating in the terminal, you may use an application such as Insomnia to test the various routes.
 
+Here is a provided Mock-up GIF of the desired functionality:
     
-![Functioning App Demo](./assets/images/DepartmentChartMaker.jpg?raw=true)
+![Bootcamp Provided GIF](./assets/13-orm-homework-demo-01.gif?raw=true)
     
 
 Demo video:
 
-https://www.loom.com/share/e48f694aef294dacb2938677f332d8b1
 
 ## Credits
 
 Thanks to fellow students in this bootcamp adventure:
 
-- Rebecca Girndt https://github.com/re-gi
-- Myeonghun Jeong "MJ" https://github.com/mjtic
-- Karen Peazzoni https://github.com/kpeazzoni
 - Chris Zavala https://github.com/chrisZavala
 
-A lot of the HTML came from Bootstrap, just so I could focus on the back-end tasks.
-https://getbootstrap.com/docs/4.0/components/card/
-
+In particular, Chris' example of a PUT route and the code he passed on from tutor Meg Meyers to fix the broken starter code for the PUT request example were super helpful!!!
 
 ## License
 
@@ -62,4 +65,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 ## Attributions:
+
+
 This README.md is patterned off of an example at https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
