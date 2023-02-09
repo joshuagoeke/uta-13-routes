@@ -9,7 +9,7 @@ In this homework assignment from the University of Texas-Austin Bootcamp we were
 
 Building this app gave me the opportunity to learn about routes that connect API database servers to a javascript application.
 
-## Table of Contents (Optional)
+## Table of Contents
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
@@ -28,8 +28,8 @@ Be sure after downloading and unzipping the directory to run in your integrated 
 - Navigate to the db folder with ```cd db```
 - Log into MySQL with ```mysql -u root -p```, and enter your password.
 - In MySQL, run ```SOURCE schema.sql```
-- Log out of mySQL, then return to the root directory with ```cd ..```
-- Seed ```npm run seed```
+- Log out of MySQL, then return to the root directory with ```cd ..```
+- Seed the local database with ```npm run seed```
 - Make the simulated local server go live with ```npm start```
 
 
@@ -44,6 +44,7 @@ Here is a provided Mock-up GIF of the desired functionality:
 
 Demo video:
 
+https://www.loom.com/share/3f9a31736ddc499082b5a5e27983e9ea
 
 ## Credits
 
